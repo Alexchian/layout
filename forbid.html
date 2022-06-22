@@ -1,0 +1,238 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="http://fonts.cdnfonts.com/css/jost-3" rel="stylesheet">
+  <link rel="stylesheet" href="css/splide.min.css"/>
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+  integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+  crossorigin="anonymous"></script>
+ <script src="js/datepicker-ru.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js"></script>
+  <script src="js/splide.min.js"></script>
+  <script src="js/slidebg.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/common.js"></script>
+  <title>Конференц-зал</title>
+</head>
+
+<body>
+<div class="wrapper">
+     <header class="header">
+      <div class="header__container">
+        <a href="/" class="header__logo">
+          <img src="img/logo.svg" alt="Логотип">
+        </a>
+
+          <div class="header__menu menu">
+          <div class="header-menu__container">
+          <a href="/" class="header__logo ">
+          <img class="header__logo-up"  src="img/logo.svg" alt="Логотип">
+          </a>
+    <a href="#menu"  class="icon-menu icon-menu-up"><span></span></a>
+     
+        
+        <nav id="menu" class="menu__body-up">
+        <ul class="menu__list-up">
+          <li class="menu__item">
+          <a href="" class="menu__link">Номера</a>  
+          </li>
+          <li class="menu__item">
+          <a href="" class="menu__link">Услуги</a>  
+          </li>
+          <li class="menu__item">
+          <a href=""  class="menu__link">Новости</a>  
+          </li>
+          <li class="menu__item">
+          <a href="" class="menu__link">Контакты</a>  
+          </li>
+        </ul>
+        </nav>
+
+        <div class="header__right-up">
+          <div class="header__right-tel-up">
+          <a href="">+7 (385-2) 36-71-00</a>  
+          </div>
+          <div class="header__right-lang-up">
+              <a href="#"><img src="img/insta.png" alt=""></a>
+              <a href="#" class="header__right-lg">EN</a>
+          </div>
+        </div>
+
+        </div>
+        </div>
+
+        <nav id="menu" class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item">
+          <a href="" class="menu__link">Номера</a>  
+          </li>
+          <li class="menu__item">
+          <a href="" class="menu__link">Услуги</a>  
+          </li>
+          <li class="menu__item">
+          <a href=""  class="menu__link">Новости</a>  
+          </li>
+          <li class="menu__item">
+          <a href="" class="menu__link">Контакты</a>  
+          </li>
+        </ul>
+        </nav>
+        <div class="header__right">
+          <div class="header__right-tel">
+          <a href="">+7 (385-2) 36-71-00</a>  
+          </div>
+          <div class="header__right-lang">
+            <img src="img/insta.png" alt="">
+              <a href="#" class="header__right-lg">EN</a>
+          </div>
+        </div>
+       <a href="#menu"  class="icon-menu"><span></span></a>
+        
+       </div>
+     </header>
+
+
+<main class="main">
+    <section class="section__forbid">
+      <div class="main__container">
+       <h3 class="section__forbid-title">Бронирование номера</h3>
+      <p class="section__forbid-desc">
+        Заполните форму ниже, используя корректные данные, и в течение некоторого времени<br> с Вами свяжется администратор.
+      </p>
+      
+<div class="section__forbid-form">
+
+  <form action="#">
+     <div class="section__forbid-form-blk">
+      <div class="section__forbid-form-left">
+      <div class="main__forbid_category">
+          <p>Категория номера</p>
+          <div class="forbid_category">
+            <ul class="list-unstyled">
+             <li class="init">Comfort</li>
+             <li data-value="value 1">Business</li>
+             <li data-value="value 2">Business-Tween</li>
+             <li data-value="value 3">Super-Luxe</li>
+            </ul>
+          </div>
+          <span></span>
+        </div>
+
+        <div class="main__forbid_arrive">
+            <p>Дата заезда</p>
+            <div class="forbid_arrive">
+            <input type="text" id="forbid_arrive" data-dp-class="custom1">
+            </div>
+            <span></span>
+        </div>
+
+        <div class="main__forbid_departure">
+                     <p>Дата выезда</p>
+                     <div class="forbid_departure"><input type="text" id="forbid_departure" data-dp-class="custom2">
+                     </div>
+                     <span></span>
+                  </div>
+
+      </div>
+
+   <div class="section__forbid-form-right">
+        <div class="section__forbid-form-right-name">
+                     <p>Ваше ФИО</p>
+    <input type="text"  placeholder="Иванов Иван Иванович">
+        </div>
+   
+       <div class="section__forbid-form-right-phone">
+                     <p>Ваш номер телефона</p>
+       <input type="text" id="section__forbid-phone"  placeholder="+х (ххх) ххх хх-хх">
+       </div>
+
+    <div class="section__forbid-form-right-mail">
+                     <p>Ваш e-mail</p>
+       <input type="text"  placeholder="example@mail.com">
+       
+    </div>
+  </div>
+
+
+
+
+</div>
+  <input class="section__forbid-form-send" type="button" value="Отправить">
+<div class="section__forbid-form-send-agree">
+  <div class="section__forbid-form-send-agree1">  
+   <input type="checkbox">
+   <p>Нажимая кнопку «Отправить», я подтверждаю, что ознакомлен с <u>антиковидными мерами</u></p>
+  </div>
+
+  <div class="section__forbid-form-send-agree2">
+   <input type="checkbox">
+   <p>Нажимая кнопку «Отправить», я даю согласие на обработку <u>персональных данных</u></p>
+  </div>
+</div>
+
+  </form>
+</div>
+</div>
+    </section>
+</main>
+
+<footer class="footer">
+      <div class="footer__container">
+          <h3 class="footer__contacts">Контакты</h3>
+          <div class="footer__blk">
+          <div class="footer__block">
+           <p class="footer__block-text">ООО «Отель «Центральный»
+                  656049, Россия, Алтайский край,
+                 </p> 
+                  <p class="footer__block-addr">г. Барнаул, пр. Ленина, 57
+                  </p>
+          </div>
+          <div class="footer__block">
+<p class="footer__block-text">Тел. <span>+7 (385-2) 36-71-00, 36-71-01
+</span></p>
+      <p class="footer__block-text">Факс: <span> +7 (385-2) 36-85-43</span></p>
+          </div>
+          <div class="footer__block">
+            <p class="footer__block-text">hotelcentral.barnaul@mail.ru<br>
+            hotel@hotelcentral.ru</p>
+          </div>
+        </div>
+        </div>
+            <div class="footer__map">
+            </div>
+
+            <div class="footer__btm">
+              <div class="footer__container">
+                <div class="footer__btm-blk">
+                  <div class="footer__btm-block">
+                    <a href="/"><img src="img/logo.svg" alt="Логотип"></a>
+
+                  </div>
+                  <div class="footer__btm-block footer__img">
+                    <a href="#"><img src="img/insta.png" alt="Инстарамм"></a>
+                    <a href="#"><img src="img/skype.png" alt="Скайп"></a>
+                  </div>
+                  <div class="footer__btm-block">
+                    <p class="footer__btm-block-txt">разработка сайта
+                             <span>paralax</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+     </footer>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="http://fonts.cdnfonts.com/css/jost-3" rel="stylesheet">
+      <link rel="stylesheet" href="css/splide.min.css"/>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+      <script
+         src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/jquery-ui.min.js"></script>
+      <script src="js/datepicker-ru.js"></script>
+      <script src="js/splide.min.js"></script>
+      <script src="js/slidebg.js"></script>
+       <script src="js/common.js"></script>
+         <script src="js/jquery.maskedinput.min.js"></script>
+      <title>Гостиница центральная</title>
+   </head>
+   <body>
+      <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <a href="/" class="header__logo">
+            <img src="img/logo.svg" alt="Логотип">
+            </a>
+            <div class="header__menu menu">
+               <div class="header-menu__container">
+                  <a href="/" class="header__logo ">
+                  <img class="header__logo-up"  src="img/logo.svg" alt="Логотип">
+                  </a>
+                  <a href="#menu"  class="icon-menu icon-menu-up"><span></span></a>
+                  <nav id="menu" class="menu__body-up">
+                     <ul class="menu__list-up">
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Номера</a>  
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Услуги</a>  
+                        </li>
+                        <li class="menu__item">
+                           <a href=""  class="menu__link">Новости</a>  
+                        </li>
+                        <li class="menu__item">
+                           <a href="" class="menu__link">Контакты</a>  
+                        </li>
+                     </ul>
+                  </nav>
+                  <div class="header__right-up">
+                     <div class="header__right-tel-up">
+                        <a href="">+7 (385-2) 36-71-00</a>  
+                     </div>
+                     <div class="header__right-lang-up">
+                        <img src="img/insta.png" alt="">
+                        <a href="#" class="header__right-lg">EN</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <nav id="menu" class="menu__body">
+               <ul class="menu__list">
+                  <li class="menu__item">
+                     <a href="" class="menu__link">Номера</a>  
+                  </li>
+                  <li class="menu__item">
+                     <a href="" class="menu__link">Услуги</a>  
+                  </li>
+                  <li class="menu__item">
+                     <a href=""  class="menu__link">Новости</a>  
+                  </li>
+                  <li class="menu__item">
+                     <a href="" class="menu__link">Контакты</a>  
+                  </li>
+               </ul>
+            </nav>
+            <div class="header__right">
+               <div class="header__right-tel">
+                  <a href="">+7 (385-2) 36-71-00</a>  
+               </div>
+               <div class="header__right-lang">
+                   <a href="#"><img src="img/insta.png" alt=""></a>
+                  <a href="#" class="header__right-lg">EN</a>
+               </div>
+            </div>
+            <a href="#menu"  class="icon-menu"><span></span></a>
+         </div>
+      </header>
+      <main class="main">
+         <section class="section__main_1">
+            <div class="main__container">
+               <div class="main__blk">
+                  <div class="main__star-blk">
+                     <div class="main__star"></div>
+                     <div class="main__star"></div>
+                     <div class="main__star"></div>
+                     <div class="main__star"></div>
+                  </div>
+                  <div class="main__title-txt">
+                     <h1>Гостиница «Центральная»</h1>
+                  </div>
+                  <div class="main__title-txt2">
+                     <h3>Вы путешествуете, мы делаем ваше пребывание комфортным</h3>
+                  </div>
+               </div>
+               <div class="main__forbid_block">
+                  <div class="main__forbid_arrive">
+                     <p>Дата заезда</p>
+                     <div class="forbid_arrive">
+                        <input type="text" id="forbid_arrive">
+                     </div>
+                     <span></span>
+                  </div>
+                  <div class="main__forbid_departure">
+                     <p>Дата выезда</p>
+                     <div class="forbid_departure">
+                        <input type="text" id="forbid_departure">
+                     </div>
+                     <span></span>
+                  </div>
+                  <div class="main__forbid_category">
+                     <p>Категория</p>
+                     <div class="forbid_category">
+                        <ul class="list-unstyled">
+                           <li class="init">Comfort</li>
+                           <li data-value="value 1">Business</li>
+                           <li data-value="value 2">Business-Tween</li>
+                           <li data-value="value 3">Super-Luxe</li>
+                        </ul>
+                     </div>
+                     <span></span>
+                  </div>
+                  <div data-id='#dialog_11'  class="section__rooms-btn-forbid main__forbid_button icon-question opener">Забронировать</div>
+               </div>
+            </div>
+         </section>
+         <section class="section__main_2">
+            <div class="main__container">
+               <h3 class="section__main_2-title">Отель в самом центре города</h3>
+               <p>Отель «Центральный» — бизнес-отель категории «четыре звезды» в центре города
+                  Барнаула.
+               </p>
+               <p>Гостиничный комплекс включает 104 номера различных категорий, конференц-зал, 2
+                  ресторана, кофейню, спортивный зал и парковку.
+               </p>
+               <p>В каждом номере есть всё для комфортного отдыха и полноценной работы: телефон,
+                  письменный стол, лампа для чтения, электронный сейф, мини-бар. Для проведения
+                  мероприятий предусмотрена комната для переговоров и конференц-зал.
+               </p>
+               <p>К услугам гостей — два уютных ресторана с европейской и азиатской кухней и кофейня.</p>
+               <p>Заведение отвечает требованиям безопасности: действующим техническим, санитарным
+                  и экологическим нормам.
+               </p>
+               <p>Добро пожаловать!</p>
+               <div class="section__main_2-blk">
+                  <div class="section__main_2-block">
+                     <p class="section__main_2-block-title">Самый центр города</p>
+                     <p class="section__main_2-block-text">Из отеля открывается вид
+                        на проспект Ленина, главную улицу города
+                     </p>
+                  </div>
+                  <div class="section__main_2-block">
+                     <p class="section__main_2-block-title">Вежливый персонал</p>
+                     <p class="section__main_2-block-text">Мы свободно говорим на русском
+и английском языках, а также найдем слова на немецком
+                     </p>
+                  </div>
+                  <div class="section__main_2-block">
+                     <p class="section__main_2-block-title">Комфортабельные номера</p>
+                     <p class="section__main_2-block-text">Одинаковое наполнение каждого номера: меняется лишь размер
+и зонирование пространства
+                     </p>
+                  </div>
+                  <div class="section__main_2-block">
+                     <p class="section__main_2-block-title">Круглосуточная стойка регистрации</p>
+                     <p class="section__main_2-block-text">Заселение — круглосуточно, выезд — до 12:00 по местному времени
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="section__rooms">
+            <div class="section__container">
+               <h3 class="section__rooms-title">Номера</h3>
+               <div class="section__rooms-blk">
+                  <div class="section__rooms-block">
+                     <div class="section__rooms-img">
+                        <img class='icon-question opener' data-id='#dialog_1' src="img/rooms/comfort.png" alt="">
+                     </div>
+                     <div class='dialog_help' id='dialog_1'>
+                        <div class="dialog_1__top">
+                           <div class="dialog_1__name">Comfort <span>25 м²</span></div>
+                           <div class="dialog_1__midl">от <span> 3900 </span> р./сутки</div>
+                           <div class="dialog_1__forbid-btn">Забронировать</div>
+                        </div>
+         <div id="main-slider" class="splide main-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/6.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div id="thumbnail-slider" class="splide thumbnail-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/comfort/6.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="splide__btm-desc">
+                           Номер с кроватью размером 140 см х 200 см, кондиционером, телефоном, телевизором и рабочим местом. Предусмотрены гигиенические принадлежности, халат, тапочки и комплект полотенец. 
+                           <p>
+                              Завтрак по системе «шведский стол» включён в стоимость.
+                           </p>
+                           <p>Дополнительное место в номере при проживании вдвоём — 1000 ₽.</p>
+                        </div>
+                        <div class="splide__btm-icons">
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_tv.png" alt="popup_tv">
+                              <p class="splide__btm-item"> Телевизор </p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_wifi.png" alt="popup_tv">
+                              <p class="splide__btm-item">WiFi</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_phone.png" alt="popup_tv">
+                              <p class="splide__btm-item">Телефон</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_safe.png" alt="popup_tv">
+                              <p class="splide__btm-item">Сейф</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_minibar.png" alt="popup_tv">
+                              <p class="splide__btm-item">Мини-бар</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_teapot.png" alt="popup_tv">
+                              <p class="splide__btm-item">Чайник</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_breakfast.png" alt="popup_tv">
+                              <p class="splide__btm-item">Завтрак <br> включен</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_conditioner.png" alt="popup_tv">
+                              <p class="splide__btm-item">Кондиционер</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_fan.png" alt="popup_tv">
+                              <p class="splide__btm-item">Фен</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_complect.png" alt="popup_tv">
+                              <p class="splide__btm-item">Комплект<br>полотенец</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_gigiene.png" alt="popup_tv">
+                              <p class="splide__btm-item">Гигиенические<br>принадлежности</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_outlet.png" alt="popup_tv">
+                              <p style="margin-left:-9px"; class="splide__btm-item">Розетка<br>около кровати</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_nosmokers.png" alt="popup_tv">
+                              <p style="margin-left:-5px"; class="splide__btm-item">Для<br>некурящих</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_view.png" alt="popup_tv">
+                              <p style="text-align:left"; class="splide__btm-item">Вид во внутрений двор<br>либо на центральный<br>проспект города</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section__rooms-name">Comfort
+                        <span>25 м²</span>
+                     </div>
+                     <div class="section__rooms-desc">Одноместный номер с удобной кроватью, шкафом для хранения одежды, рабочим местом и собственной ванной комнатой.</div>
+                     <div class="section__rooms-price">от 3900 р/сутки</div>
+                     <div class="section__rooms-btn-blk">
+   <div data-id='#dialog_11'  class="section__rooms-btn-forbid icon-question opener">Забронировать</div>
+
+                        <div data-id='#dialog_1' class="icon-question opener section__rooms-btn-more">Подробнее</div>
+                     </div>
+                  </div>
+                  <div class="section__rooms-block rooms-block_last">
+                     <div class="section__rooms-img">
+                        <img class='icon-question opener' data-id='#dialog_2'  src="img/rooms/business.jpg" alt="">
+                     </div>
+
+<!-----------------Forbid popup-------------------------------------->
+<div class='dialog_help' id='dialog_11'>
+<section class="section__forbid">
+      <div class="main__container">
+       <h3 class="section__forbid-title">Бронирование номера</h3>
+      <p class="section__forbid-desc">
+        Заполните форму ниже, используя корректные данные, и в течение некоторого времени<br> с Вами свяжется администратор.
+      </p>
+      
+<div class="section__forbid-form">
+
+  <form action="#">
+     <div class="section__forbid-form-blk">
+      <div class="section__forbid-form-left">
+      <div class="main__forbid_category">
+          <p>Категория номера</p>
+          <div class="forbid_category">
+            <ul class="list-unstyled">
+             <li class="init">Comfort</li>
+             <li data-value="value 1">Business</li>
+             <li data-value="value 2">Business-Tween</li>
+             <li data-value="value 3">Super-Luxe</li>
+            </ul>
+          </div>
+          <span></span>
+        </div>
+
+        <div class="main__forbid_arrive-popup">
+            <p>Дата заезда</p>
+   <div class="forbid_arrive">
+     <input type="text" id= "forbid_arrive-popup" data-dp-class="custom2">
+   </div>
+            <span class="forbid_arrive-arrow"></span>
+   </div>
+
+        <div class="main__forbid_departure-popup">
+                     <p>Дата выезда</p>
+                     <div class="forbid_departure1"><input type="text" id="forbid_departure-popup" data-dp-class="custom2">
+                     </div>
+                     <span class="forbid_departure-arrow"></span>
+                  </div>
+
+      </div>
+
+   <div class="section__forbid-form-right">
+        <div class="section__forbid-form-right-name">
+                     <p>Ваше ФИО</p>
+    <input type="text"  placeholder="Иванов Иван Иванович">
+        </div>
+   
+       <div class="section__forbid-form-right-phone">
+                     <p>Ваш номер телефона</p>
+       <input type="text" id="section__forbid-phone"  placeholder="+х (ххх) ххх хх-хх">
+       </div>
+
+    <div class="section__forbid-form-right-mail">
+                     <p>Ваш e-mail</p>
+       <input type="text"  placeholder="example@mail.com">
+       
+    </div>
+  </div>
+
+</div>
+  <input class="section__forbid-form-send" type="button" value="Отправить">
+<div class="section__forbid-form-send-agree">
+  <div class="section__forbid-form-send-agree1">  
+   <input type="checkbox">
+   <p>Нажимая кнопку «Отправить», я подтверждаю, что ознакомлен с <u>антиковидными мерами</u></p>
+  </div>
+
+  <div class="section__forbid-form-send-agree2">
+   <input type="checkbox">
+   <p>Нажимая кнопку «Отправить», я даю согласие на обработку <u>персональных данных</u></p>
+  </div>
+</div>
+
+  </form>
+</div>
+</div>
+    </section>
+
+</div>
+<!------------------end forbid popup---------------------------------->
+
+
+
+<!--------------------------popup---------------------------------->
+                     <div class='dialog_help' id='dialog_2'>
+                        <div class="dialog_1__top">
+                           <div class="dialog_1__name">Business <span>36 м²</span></div>
+                           <div class="dialog_1__midl">от <span> 4500 </span> р./сутки</div>
+                           <div class="dialog_1__forbid-btn">Забронировать</div>
+                        </div>
+                        <div id="main-slider1" class="splide main-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/business/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business/5.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div id="thumbnail-slider1"  class="splide thumbnail-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/business/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business/5.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="splide__btm-desc">
+                           <p>Номер с большой кроватью размером 160 см х 200 см, кондиционером, телефоном, телевизором, и рабочим столом. Зона отдыха дополнена диваном. Ванные комнаты оснащены душем, биде, феном. Предусмотрены гигиенические принадлежностями, халат, тапочки и комплект полотенец.</p>
+                           <p>Завтрак по системе «шведский стол» включён в стоимость.</p>
+                           <p>Дополнительное место в номере при проживании вдвоём — 1000 ₽.</p>
+                        </div>
+                        <div class="splide__btm-icons">
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_tv.png" alt="popup_tv">
+                              <p class="splide__btm-item"> Телевизор </p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_wifi.png" alt="popup_tv">
+                              <p class="splide__btm-item">WiFi</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_phone.png" alt="popup_tv">
+                              <p class="splide__btm-item">Телефон</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_safe.png" alt="popup_tv">
+                              <p class="splide__btm-item">Сейф</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_minibar.png" alt="popup_tv">
+                              <p class="splide__btm-item">Мини-бар</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_teapot.png" alt="popup_tv">
+                              <p class="splide__btm-item">Чайник</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_breakfast.png" alt="popup_tv">
+                              <p class="splide__btm-item">Завтрак <br> включен</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_conditioner.png" alt="popup_tv">
+                              <p class="splide__btm-item">Кондиционер</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_fan.png" alt="popup_tv">
+                              <p class="splide__btm-item">Фен</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_complect.png" alt="popup_tv">
+                              <p class="splide__btm-item">Комплект<br>полотенец</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_gigiene.png" alt="popup_tv">
+                              <p class="splide__btm-item">Гигиенические<br>и косметические<br> принадлежности</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_overall.png" alt="Халат">
+                              <p class="splide__btm-item">Халат</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_slippers.png" alt="Тапочки">
+                              <p class="splide__btm-item">Тапочки</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_outlet.png" alt="popup_tv">
+                              <p style="margin-left:-9px;" class="splide__btm-item">Розетка<br>около кровати</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_nosmokers.png" alt="popup_tv">
+                              <p style="margin-left:-5px"; class="splide__btm-item">Для<br>некурящих</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_view.png" alt="popup_tv">
+                              <p style="margin-left:-5px"; class="splide__btm-item">Вид на город</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!---------------------- end popup ---------------------------->
+                     <div class="section__rooms-name">Business
+                        <span>36 м²</span>
+                     </div>
+                     <div class="section__rooms-desc">Улучшенный одноместный номер с большой кроватью, диваном, шкафом для хранения одежды, рабочим местом, собственной ванной комнатой и прихожей. </div>
+                     <div class="section__rooms-price">от 4500 р/сутки</div>
+                     <div class="section__rooms-btn-blk">
+                        <div data-id='#dialog_11'  class="section__rooms-btn-forbid icon-question opener">Забронировать</div>
+                        <div data-id='#dialog_2' class="icon-question opener section__rooms-btn-more">Подробнее</div>
+                     </div>
+                  </div>
+                  <div class="section__rooms-block">
+                     <div class="section__rooms-img">
+                        <img class='icon-question opener' data-id='#dialog_3' src="img/rooms/business-tween.jpg" alt="">
+                     </div>
+                     <!-------------------------- popup 3  --------------------------------->
+                     <div class='dialog_help' id='dialog_3'>
+                        <div class="dialog_1__top">
+                           <div class="dialog_1__name">Business-Tween <span>36 м²</span></div>
+                           <div class="dialog_1__midl">от <span>4800</span> р./сутки</div>
+                           <div class="dialog_1__forbid-btn">Забронировать</div>
+                        </div>
+                        <div id="main-slider2" class="splide main-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/7.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div id="thumbnail-slider2" class="splide thumbnail-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/business-tween/7.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="splide__btm-desc">
+                           Номер с двумя односпальными кроватями размером 90 см х 200 см, кондиционером, телефоном, телевизором и рабочим столом. Зона отдыха дополнена диваном. Ванные комнаты оснащены душем, биде, феном. Предусмотрены гигиенические принадлежностями, халат, тапочки и комплекты полотенец для двоих. 
+                           <p>Завтрак по системе «шведский стол» включён в стоимость.</p>
+                        </div>
+                        <div class="splide__btm-icons">
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_tv.png" alt=" Телевизор ">
+                              <p class="splide__btm-item"> Телевизор </p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_wifi.png" alt="WiFi">
+                              <p class="splide__btm-item">WiFi</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_phone.png" alt="Телефон">
+                              <p class="splide__btm-item">Телефон</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_safe.png" alt="Сейф">
+                              <p class="splide__btm-item">Сейф</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_minibar.png" alt="Мини-бар">
+                              <p class="splide__btm-item">Мини-бар</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_teapot.png" alt="Чайник">
+                              <p class="splide__btm-item">Чайник</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_breakfast.png" alt="Завтрак включен">
+                              <p class="splide__btm-item">Завтрак <br> включен</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_conditioner.png" alt="Кондиционер">
+                              <p class="splide__btm-item">Кондиционер</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_fan.png" alt="Фен">
+                              <p class="splide__btm-item">Фен</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_complect.png" alt="Полотенца">
+                              <p class="splide__btm-item">Полотенца</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_gigiene.png" alt="Гигиенические и косметическте принадлежности">
+                              <p class="splide__btm-item">Гигиенические<br>и косметическте<br> принадлежности</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_overall.png" alt="Халат">
+                              <p class="splide__btm-item">Халат</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_slippers.png" alt="Тапочки">
+                              <p class="splide__btm-item">Тапочки</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_outlet.png" alt="Розетка около кровати">
+                              <p style="margin-left:-9px"; class="splide__btm-item">Розетка<br>около кровати</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_nosmokers.png" alt="Для некурящих">
+                              <p style="margin-left:-5px"; class="splide__btm-item">Для<br>некурящих</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_view.png" alt="Вид на город">
+                              <p style="text-align:left"; class="splide__btm-item">Вид на город</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_pets.png" alt="Можно c питомцами">
+                              <p style="text-align:left"; class="splide__btm-item">Можно<br>c питомцами</p>
+                           </div>
+                        </div>
+                     </div>
+   <!-------------------------- end popup 3 ------------------------------>
+                     <div class="section__rooms-name">Business-Tween
+                        <span>36 м²</span>
+                     </div>
+                     <div class="section__rooms-desc">Номер для двоих с двумя односпальными кроватями, диваном, шкафом для одежды, рабочим местом, собственной ванной комнатой и прихожей. </div>
+                     <div class="section__rooms-price">от 4800 р/сутки</div>
+                     <div class="section__rooms-btn-blk">
+                        <div data-id='#dialog_11'  class="section__rooms-btn-forbid icon-question opener">Забронировать</div>
+                        <div  data-id='#dialog_3' class="icon-question opener section__rooms-btn-more">Подробнее</div>
+                     </div>
+                  </div>
+                  <div class="section__rooms-block">
+                     <div data-id='#dialog_4' class="icon-question opener section__rooms-img">
+                        <img src="img/rooms/super-luxe.jpg" alt="">
+                     </div>
+<!-------------------------- popup 4  --------------------------------->
+                     <div class='dialog_help' id='dialog_4'>
+                        <div class="dialog_1__top">
+                           <div class="dialog_1__name">Super-Luxe <span>45 м²</span></div>
+                           <div class="dialog_1__midl">от <span>5800</span> р./сутки</div>
+                           <div class="dialog_1__forbid-btn">Забронировать</div>
+                        </div>
+                        <div id="main-slider3" class="splide main-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/7.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/8.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div id="thumbnail-slider3" class="splide thumbnail-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/7.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/super-luxe/8.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="splide__btm-desc">
+                           Номер из двух комнат с гостиной и прихожей. Просторная спальня с большой кроватью размером 160 см х 200 см, кондиционером, телефоном, телевизором дополнена рабочим столом и зоной для отдыха. Ванная комната включает большой душ либо джакузи, биде, фен. Предусмотрены гигиенические принадлежности, халат, тапочки и комплект полотенец. В гостиной расположен диван-кровать, гардеробная и второй телевизор. 
+                           <p>Завтрак по системе «шведский стол» включён в стоимость.</p>
+                           <p>Дополнительное место в номере — 1000 ₽.</p>
+                        </div>
+                        <div class="splide__btm-icons">
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_tv.png" alt=" Телевизор ">
+                              <p class="splide__btm-item"> Телевизор </p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_wifi.png" alt="WiFi">
+                              <p class="splide__btm-item">WiFi</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_phone.png" alt="Телефон">
+                              <p class="splide__btm-item">Телефон</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_safe.png" alt="Сейф">
+                              <p class="splide__btm-item">Сейф</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_minibar.png" alt="Мини-бар">
+                              <p class="splide__btm-item">Мини-бар</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_teapot.png" alt="Чайник">
+                              <p class="splide__btm-item">Чайник</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_breakfast.png" alt="Завтрак включен">
+                              <p class="splide__btm-item">Завтрак <br> включен</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_conditioner.png" alt="Кондиционер">
+                              <p class="splide__btm-item">Кондиционер</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_fan.png" alt="Фен">
+                              <p class="splide__btm-item">Фен</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_complect.png" alt="Полотенца">
+                              <p class="splide__btm-item">Полотенца</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_gigiene.png" alt="Гигиенические и косметическте принадлежности">
+                              <p class="splide__btm-item">Гигиенические<br>и косметическте<br> принадлежности</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_overall.png" alt="Халат">
+                              <p class="splide__btm-item">Халат</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_slippers.png" alt="Тапочки">
+                              <p class="splide__btm-item">Тапочки</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_outlet.png" alt="Розетка около кровати">
+                              <p style="margin-left:-9px"; class="splide__btm-item">Розетка<br>около кровати</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_nosmokers.png" alt="Для некурящих">
+                              <p style="margin-left:-5px"; class="splide__btm-item">Для<br>некурящих</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_view.png" alt="Вид на город">
+                              <p style="text-align:left"; class="splide__btm-item">Вид на город</p>
+                           </div>
+                           <div class="splide__btm-icon">
+                              <img src="img/popup_pets.png" alt="Можно c питомцами">
+                              <p style="text-align:left"; class="splide__btm-item">Можно<br>c питомцами</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-------------------------- end popup 4 ------------------------------>
+                     <div class="section__rooms-name">Super-Luxe
+                        <span>45 м²</span>
+                     </div>
+                     <div class="section__rooms-desc">Представительский люкс с прихожей, гостиной, отдельной спальней и видом на главную улицу и центральную площадь города. Собственная ванная комната и гардеробная зона.</div>
+                     <div class="section__rooms-price">от 5800 р/сутки</div>
+                     <div class="section__rooms-btn-blk">
+                        <div data-id='#dialog_11'  class="section__rooms-btn-forbid icon-question opener">Забронировать</div>
+                        <div data-id='#dialog_3'  class="section__rooms-btn-more icon-question opener">Подробнее</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="section__services">
+            <div class="section__container">
+            <h3 class="section__services-title">Услуги</h3>
+            <div class="section__services-blk">
+               <div class="section__services-block">
+                  <div class="section__services-img">
+                     <img   data-id='#dialog_5' class="icon-question opener" src="img/services/1.jpg" alt="Конференц-зал">
+                  </div>
+                  <!-------------------------- popup 5  --------------------------------->
+                  <div class='dialog_help' id='dialog_5'>
+                     <div class="dialog_1__top">
+                        <div class="dialog_1__name">Шведский стол<span style="margin-left:15px;">с 7:00 до 24:00</span></div>
+                     </div>
+                     <div id="main-slider4" class="splide main-slider">
+                        <div class="splide__track">
+                           <ul class="splide__list">
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/1.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/2.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/3.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/4.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/5.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/6.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/7.jpg">
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="thumbnail-slider4" class="splide thumbnail-slider">
+                        <div class="splide__track">
+                           <ul class="splide__list">
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/1.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/2.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/3.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/4.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/5.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/6.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/7.jpg">
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="splide__btm-desc">
+                        Ежедневно с семи утра мы подаём завтраки на цокольном этаже отеля в специальном зале для гостей.
+                        Вас ждёт широкий выбор горячих и холодных блюд, включая свежие овощи и фрукты, продукты от местных производителей, десерты, выпечку и кофе. Любителям лёгких классических завтраков понравятся каши, йогурты, печенья и маффины. 
+                        <p>
+                           <span style="font-weight:bold">Завтрак с собой.</span> Если Вам необходимо выехать из отеля пораньше, мы соберём ланч-бокс с напитком, сезонными фруктами, легкой закуской и сэндвичами.
+                           Закажите завтрак с собой заранее на стойке регистрации. Услуга предоставляется бесплатно по талону «шведский стол».
+                        </p>
+                        <p><span style="font-weight:bold">Завтрак в номер.</span> Если Вы предпочли остаться в номере, воспользуйтесь услугой «service-room». Выберите подходящие блюда из специального меню обслуживания и позвоните в ресторан, чтобы сделать заказ.</p>
+                     </div>
+                  </div>
+                  <!-------------------------- end popup 5 ------------------------------>
+                  <div class="section__services-blk2">
+                     <div class="section__services-name">Конференц-зал
+                        <span>25 м²</span>
+                     </div>
+                     <div class="section__services-desc">Планируйте в «Центральном» продуктивные встречи и важные мероприятия до 80 человек</div>
+                     <div class="section__services-price">от 1500 р/час</div>
+                     <div class="section__srvices-btn-blk">
+                        <div data-id='#dialog_5' class="icon-question opener section__services-btn-more">Подробнее</div>
+                     </div>
+                  </div>
+                  
+                  
+               </div>
+               <div class="section__services-block">
+                  <div class="section__services-img">
+                     <img data-id='#dialog_6' class="icon-question opener" src="img/services/2.jpg" alt="">
+                  </div>
+                  <!-------------------------- popup 6  --------------------------------->
+                  <div class='dialog_help' id='dialog_6'>
+                     <div class="dialog_1__top">
+                        <div class="dialog_1__name">Шведский стол<span style="margin-left:15px;">с 7:00 до 24:00</span></div>
+                     </div>
+                     <div id="main-slider5" class="splide main-slider">
+                        <div class="splide__track">
+                           <ul class="splide__list">
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/1.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/2.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/3.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/4.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/5.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/6.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/7.jpg">
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="thumbnail-slider5" class="splide thumbnail-slider">
+                        <div class="splide__track">
+                           <ul class="splide__list">
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/1.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/2.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/3.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/4.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/5.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/6.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/swees/7.jpg">
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="splide__btm-desc">
+                        Ежедневно с семи утра мы подаём завтраки на цокольном этаже отеля в специальном зале для гостей.
+                        Вас ждёт широкий выбор горячих и холодных блюд, включая свежие овощи и фрукты, продукты от местных производителей, десерты, выпечку и кофе. Любителям лёгких классических завтраков понравятся каши, йогурты, печенья и маффины. 
+                        <p>
+                           <span style="font-weight:bold">Завтрак с собой.</span> Если Вам необходимо выехать из отеля пораньше, мы соберём ланч-бокс с напитком, сезонными фруктами, легкой закуской и сэндвичами.
+                           Закажите завтрак с собой заранее на стойке регистрации. Услуга предоставляется бесплатно по талону «шведский стол».
+                        </p>
+                        <p><span style="font-weight:bold">Завтрак в номер.</span> Если Вы предпочли остаться в номере, воспользуйтесь услугой «service-room». Выберите подходящие блюда из специального меню обслуживания и позвоните в ресторан, чтобы сделать заказ.</p>
+                     </div>
+                  </div>
+                  <!-------------------------- end popup 6 ------------------------------>
+                  <div class="section__services-blk2">
+                     <div class="section__services-name">Шведский стол
+                        <span>25 м²</span>
+                     </div>
+                     <div class="section__services-desc">Ждём Вас на завтраки по будням с 07:00 до 10:00, а в выходные — до 11:00</div>
+                     <div class="section__services-price">от 1500 р/час</div>
+                     <div class="section__srvices-btn-blk">
+                        <div data-id='#dialog_6' class="icon-question opener section__services-btn-more">Подробнее</div>
+                     </div>
+                  </div>
+                  
+                
+               </div>
+               <div class="section__services-block">
+                  <div class="section__services-img">
+                     <img data-id='#dialog_7' class="icon-question opener" src="img/services/3.jpg" alt="">
+                  </div>
+                  <!-------------------------- popup 7  --------------------------------->
+                  <div class='dialog_help' id='dialog_7'>
+                     <div class="dialog_1__top">
+                        <div class="dialog_1__name">Тренажерный зал</div>
+                     </div>
+                     <div id="main-slider6" class="splide main-slider">
+                        <div class="splide__track">
+                           <ul class="splide__list">
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/1.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/2.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/3.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/4.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/5.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/6.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/7.jpg">
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div id="thumbnail-slider6" class="splide thumbnail-slider">
+                        <div class="splide__track">
+                           <ul class="splide__list">
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/1.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/2.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/3.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/4.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/5.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/6.jpg">
+                              </li>
+                              <li class="splide__slide">
+                                 <img src="img/services/gym/7.jpg">
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="splide__btm-desc">
+                        Круглосуточный бесплатный доступ организован на цокольном этаже отеля. Зал оснащён беговой дорожкой, силовыми скамейками, гантелями и штангами.
+                     </div>
+                  </div>
+                  <!-------------------------- end popup 7 ------------------------------>
+                  <div class="section__services-blk2">
+                     <div class="section__services-name">Тренажерный зал
+                        <span>25 м²</span>
+                     </div>
+                     <div class="section__services-desc">Оставайтесь в отличной спортивной форме даже в путешествии!</div>
+                     <div class="section__services-price">от 1500 р/час</div>
+                     <div class="section__srvices-btn-blk">
+                        <div data-id='#dialog_7' class="icon-question opener section__services-btn-more">Подробнее</div>
+                     </div>
+                  </div>
+                  
+                  
+               </div>
+            </div>
+         
+     
+<div class="section__services-service">
+   <div class="section__services-service1 section__services-block">
+   <div class="section__services-desc-2">
+                     <div class="section__services-desc-2-title">Wi-Fi</div>
+                     <div class="section__services-desc-2-desc">Разместите фото в Инстаграм, проверьте почту или пообщайтесь с близкими, подключившись к бесплатному Wi-Fi
+                        во всех зонах отеля круглосуточно
+                     </div>
+                  </div>
+
+                    <div class="section__services-desc-2">
+                     <div class="section__services-desc-2-title">Трансфер</div>
+                     <div class="section__services-desc-2-desc">По предварительному согласованию мы можем организовать  трансфер от аэропорта. Для больших компаний предусмотрен микроавтобус</div>
+                  </div>
+   </div>
+
+                   
+   <div class="section__services-service2 section__services-block">
+                   <div class="section__services-desc-2">
+                     <div class="section__services-desc-2-title">Прачечная</div>
+                     <div class="section__services-desc-2-desc">Останавливаетесь в отеле на длительное время? Воспользуйтесь услугами прачечной: постираем и отутюжим вещи или предоставим гладильные принадлежности по запросу</div>
+                  </div>
+                    <div class="section__services-desc-2">
+                     <div class="section__services-desc-2-title">Парковка</div>
+                     <div class="section__services-desc-2-desc">Гости, которые приезжают в отель на своём  автомобиле, могут оставить его на общественной парковке перед отелем под круглосуточным видеонаблюдением или охраняемой платной парковке (по предварительному согласованию).</div>
+                  </div>
+   </div>         
+
+                 
+
+                  <div class="section__services-desc-2">
+                     <div class="section__services-desc-2-title">Можно с животными</div>
+                     <div class="section__services-desc-2-desc">По предварительному согласованию небольшие питомцы могут ночевать в отеле вместе с хозяевами. При бронировании номера укажите, что хотели бы приехать вместе с четвероногим другом.</div>
+                  </div>
+
+                
+</div>
+         </div>
+      </section>
+         
+         <section class="section__restaurants">
+            <div class="section__container">
+               <h3 class="section__restaurants-title">Наши рестораны</h3>
+               <div class="section__services-blk">
+                  <div class="section__services-block">
+                     <div class="section__services-img">
+                        <img  data-id='#dialog_8' class="icon-question opener" src="img/restaurants/1.png" alt="">
+                     </div>
+                     <!-------------------------- popup 8  --------------------------------->
+                     <div class='dialog_help' id='dialog_8'>
+                        <div class="dialog_1__top">
+                           <div class="dialog_1__name">Центральная кофейня<span style="margin-left:15px;">с 7:00 до 24:00</span></div>
+                        </div>
+                        <div id="main-slider7" class="splide main-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/7.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div id="thumbnail-slider7" class="splide thumbnail-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/7.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="splide__btm-desc">
+                           Отличие ресторана — в высокой скорости обслуживания любых заказов. Гости быстро сменяют друг друга, поэтому Вам не придётся ждать свободный столик дольше 15 минут.
+                           <p>
+                              Другой важный принцип работы — строгое соблюдение стандартов качества широкого меню. У нас подают завтраки, бранчи, горячие блюда, десерты, алкоголь и, конечно, кофе. 
+                           </p>
+                           <p>
+                              Проверить почту, пообщаться с коллегами или расслабиться за бокалом вина после долгого дня — повод заглянуть в «Центральную кофейню» может быть любой! Ждём в гости! 
+                           </p>
+                           <div class="splide__link"><span></span>coffee_central</div>
+                        </div>
+                     </div>
+                     <!-------------------------- end popup 8 ------------------------------>
+                     <div class="section__restaurants-blk2">
+                        <div class="section__services-name">«Центральная кофейня»
+                        </div>
+                        <div class="section__services-desc">Здесь ведут переговоры, обедают с друзьями
+                           и наслаждаются блюдами европейской кухни.
+                           А ещё мы не против, если Вы захотите поработать за чашечкой кофе!
+                        </div>
+                        <div class="section__srvices-btn-blk">
+                           <div data-id='#dialog_8'  class="icon-question opener section__services-btn-more section__restaurants-btn-more">Подробнее</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="section__services-block">
+                     <div class="section__services-img">
+                        <img data-id='#dialog_9' class="icon-question opener" src="img/restaurants/2.png" alt="">
+                     </div>
+                     <!-------------------------- popup 9  --------------------------------->
+                     <div class='dialog_help' id='dialog_9'>
+                        <div class="dialog_1__top">
+                           <div class="dialog_1__name">Freeman’s coffee-bar<span style="margin-left:15px;">с 7:45 до 23:30</span></div>
+                        </div>
+                        <div id="main-slider8" class="splide main-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/7.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div id="thumbnail-slider8" class="splide thumbnail-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/7.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="splide__btm-desc">
+                           Freeman’s coffee-bar — яркий ресторан в формате <span style="font-weight: bold">«street food»</span>. 
+                           Здесь можно оперативно заказать полноценный завтрак с собой или сытно пообедать в зале. Рядом с каждым столиком — удобные розетки, а в карте бара — более 30 позиций. Разнообразие кухни не даст растеряться: в меню найдёте поке, круассаны, сэндвичи, каши и другие горячие блюда. 
+                           <p>
+                              Возьмите стаканчик кофе с собой или останьтесь поработать в компании приятной музыки, качественных напитков и десертов. Для четвероногих друзей организована зона с питьевой водой, каждому питомцу — печенье в подарок!
+                           </p>
+                           <div class="splide__link"><span></span>freemans_coffee_bar</div>
+                        </div>
+                     </div>
+                     <!-------------------------- end popup 9 ------------------------------>
+                     <div class="section__restaurants-blk2">
+                        <div class="section__services-name">«Free man`s»
+                        </div>
+                        <div class="section__services-desc">Если Вы ищете место, где можно отвлечься 
+                           от повседневных забот и перезагрузиться, загляните во Freeman’s coffee-bar. Хороший кофе, горячие блюда и вдохновляющая атмосфера Вам обеспечены. 
+                        </div>
+                        <div class="section__srvices-btn-blk">
+                           <div data-id='#dialog_9'  class="icon-question opener section__services-btn-more section__restaurants-btn-more">Подробнее</div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="section__services-block">
+                     <div class="section__services-img">
+                        <img data-id='#dialog_10' class="icon-question opener" src="img/restaurants/3.png" alt="">
+                     </div>
+                     <!-------------------------- popup 9  --------------------------------->
+                     <div class='dialog_help' id='dialog_10'>
+                        <div class="dialog_1__top">
+                           <div class="dialog_1__name">Asia-bar freeman's<span style="margin-left:15px;">с 11:00 до 24:00</span></div>
+                        </div>
+                        <div id="main-slider9" class="splide main-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/7.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div id="thumbnail-slider9" class="splide thumbnail-slider">
+                           <div class="splide__track">
+                              <ul class="splide__list">
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/1.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/2.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/3.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/4.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/5.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/6.jpg">
+                                 </li>
+                                 <li class="splide__slide">
+                                    <img src="img/services/swees/7.jpg">
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="splide__btm-desc">
+                           Качество проявляется в деталях, поэтому мы всё готовим самостоятельно: от трех видов лапши до японских десертов. В каждое блюдо добавляем не менее 10 ингредиентов, а на столиках найдёте 4 разных соуса — экспериментируйте и наслаждайтесь!  Если станет слишком остро, ищите спасения в японских чаях, вьетнамских соках или азиатском пиве.
+                           <p>
+                              Фишка заведения — открытая кухня и ресторанная подача.  А ещё здесь атмосферно: мандариновые деревья, неоновые вывески и котики Maneki Neko перенесут Вас на улицы Токио и Шанхая. 
+                           </p>
+                           <div class="splide__link"><span></span>asia_bar_freemans</div>
+                        </div>
+                     </div>
+                     <!-------------------------- end popup 9 ------------------------------>
+                     <div class="section__restaurants-blk2">
+                        <div class="section__services-name">«Asia bar»
+                        </div>
+                        <div class="section__services-desc">Asia-bar — это роллы, вок и другие горячие блюда азиатской кухни в авторском исполнении. Гости ценят ресторан за оригинальную подачу, неповторимый интерьер и возможность попробовать настоящее азиатское пиво.</div>
+                        <div class="section__srvices-btn-blk">
+                           <div data-id='#dialog_10'  class="icon-question opener section__services-btn-more section__restaurants-btn-more">Подробнее</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </section>
+         <section class="section__reviews">
+         <div class="section__reviews__container">
+         <h3 class="section__reviews-title">Отзывы наших гостей</h3>        
+         <div class="section__reviews-show-reviews">
+         <div class="section__reviews-show-reviews-left">9,2</div>
+         <div class="section__reviews-show-reviews-right">
+         <p class="section__reviews-show-reviews-right-status">Превосходно</p>
+         <p class="section__reviews-show-numreviews">917 отзывов</p>
+         </div>
+         </div>
+         <div class="section__reviews-show-categories">
+         <div class="section__reviews-show-categories-title">Категории</div>
+         <div class="section__reviews-show-categories__">
+         <div class="section__reviews-show-categories-blk">
+         <p>Персонал</p>
+         <div class="section__reviews__">
+         <div id="section__reviews-show-categories-personal"></div>
+         <div class="section__reviews-progressnum">9.1</div>
+         </div>
+         <p>Комфорт</p>
+         <div class="section__reviews__">
+         <div id="section__reviews-show-categories-comfort"></div>
+         <div class="section__reviews-progressnum">9.2</div>
+         </div>
+         <p>Бесплатный Wi-Fi</p>
+         <div class="section__reviews__">
+         <div id="section__reviews-show-categories-freewifi"></div>
+         <div class="section__reviews-progressnum">8.3</div>
+         </div>
+         </div>
+         <div class="section__reviews-show-categories-blk">
+         <p>Удобства</p>
+         <div class="section__reviews__">
+         <div id="section__reviews-show-categories-amenities"></div>
+         <div class="section__reviews-progressnum">9.0</div>
+         </div>
+         <p>Соотношение цена/качество</p>
+         <div class="section__reviews__">
+         <div id="section__reviews-show-categories-pricequality"></div>
+         <div class="section__reviews-progressnum">9.0</div>
+         </div>
+         </div>
+         <div class="section__reviews-show-categories-blk">
+         <p>Чистота</p>
+         <div class="section__reviews__">
+         <div id="section__reviews-show-categories-clean"></div>
+         <div class="section__reviews-progressnum">9.4</div>
+         </div>
+         <p>Расположение</p>
+         <div class="section__reviews__">
+         <div id="section__reviews-show-categories-favor"></div>
+         <div class="section__reviews-progressnum">9.7</div>
+         </div>
+         </div>
+         </div>
+         </div>
+         </div> 
+         </section>
+      </main>
+      <footer class="footer">
+      <div class="footer__container">
+      <h3 class="footer__contacts">Контакты</h3>
+      <div class="footer__blk">
+      <div class="footer__block">
+      <p class="footer__block-text">ООО «Отель «Центральный»
+      656049, Россия, Алтайский край,
+      </p> 
+      <p class="footer__block-addr">г. Барнаул, пр. Ленина, 57
+      </p>
+      </div>
+      <div class="footer__block">
+      <p class="footer__block-text">Тел. <span>+7 (385-2) 36-71-00, 36-71-01
+      </span></p>
+      <p class="footer__block-text">Факс: <span> +7 (385-2) 36-85-43</span></p>
+      </div>
+      <div class="footer__block">
+      <p class="footer__block-text">   hotelcentral.barnaul@mail.ru</p>
+      <p class="footer__block-text">hotel@hotelcentral.ru</p>
+      </div>
+      </div>
+      </div>
+      <div class="footer__map">
+      </div>
+      <div class="footer__btm">
+      <div class="footer__container">
+      <div class="footer__btm-blk">
+      <div class="footer__btm-block">
+      <a href="/"><img src="img/logo.svg" alt="Логотип"></a>
+      </div>
+      <div class="footer__btm-block">
+      <a href="#"><img src="img/insta.png" alt="Инстарамм"></a>
+      <a href="#"><img src="img/skype.png" alt="Скайп"></a>
+      </div>
+      <div class="footer__btm-block">
+      <p class="footer__btm-block-txt">разработка сайта
+      <span>paralax</span>
+      </p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </footer>
+      </div>
+   </body>
+</html>

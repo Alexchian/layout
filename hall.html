@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="http://fonts.cdnfonts.com/css/jost-3" rel="stylesheet">
+  <link rel="stylesheet" href="css/splide.min.css"/>
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+  integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+  crossorigin="anonymous"></script>
+ <script src="js/datepicker-ru.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js"></script>
+  <script src="js/splide.min.js"></script>
+  <script src="js/slidebg.js"></script>
+  <script src="js/common.js"></script>
+  <title>Конференц-зал</title>
+</head>
+
+<body>
+<div class="wrapper">
+     <header class="header">
+      <div class="header__container">
+        <a href="/" class="header__logo">
+          <img src="img/logo.svg" alt="Логотип">
+        </a>
+
+          <div class="header__menu menu">
+          <div class="header-menu__container">
+          <a href="/" class="header__logo ">
+          <img class="header__logo-up"  src="img/logo.svg" alt="Логотип">
+          </a>
+    <a href="#menu"  class="icon-menu icon-menu-up"><span></span></a>
+     
+        
+        <nav id="menu" class="menu__body-up">
+        <ul class="menu__list-up">
+          <li class="menu__item">
+          <a href="" class="menu__link">Номера</a>  
+          </li>
+          <li class="menu__item">
+          <a href="" class="menu__link">Услуги</a>  
+          </li>
+          <li class="menu__item">
+          <a href=""  class="menu__link">Новости</a>  
+          </li>
+          <li class="menu__item">
+          <a href="" class="menu__link">Контакты</a>  
+          </li>
+        </ul>
+        </nav>
+
+        <div class="header__right-up">
+          <div class="header__right-tel-up">
+          <a href="">+7 (385-2) 36-71-00</a>  
+          </div>
+          <div class="header__right-lang-up">
+              <a href="#"><img src="img/insta.png" alt=""></a>
+              <a href="#" class="header__right-lg">EN</a>
+          </div>
+        </div>
+
+        </div>
+        </div>
+
+        <nav id="menu" class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item">
+          <a href="" class="menu__link">Номера</a>  
+          </li>
+          <li class="menu__item">
+          <a href="" class="menu__link">Услуги</a>  
+          </li>
+          <li class="menu__item">
+          <a href=""  class="menu__link">Новости</a>  
+          </li>
+          <li class="menu__item">
+          <a href="" class="menu__link">Контакты</a>  
+          </li>
+        </ul>
+        </nav>
+        <div class="header__right">
+          <div class="header__right-tel">
+          <a href="">+7 (385-2) 36-71-00</a>  
+          </div>
+          <div class="header__right-lang">
+            <img src="img/insta.png" alt="">
+              <a href="#" class="header__right-lg">EN</a>
+          </div>
+        </div>
+       <a href="#menu"  class="icon-menu"><span></span></a>
+        
+       </div>
+     </header>
+<main class="main">
+<div class="main__container">
+ <section class="section__hall">
+    <div class="section__hall-titleblock">
+     <div class="section__hall-title">Конференц-зал</div>
+     <div data-id='#dialog_12'  class="section__hall-forbid icon-question opener">Забронировать</div>
+    </div> 
+
+<div class='dialog_help' id='dialog_12'>
+
+ <section class="section__forbid">
+      <div class="main__container">
+       <h3 class="section__forbid-title">Бронирование конференц зала</h3>
+      <p class="section__forbid-desc">
+        Заполните форму ниже, используя корректные данные, и в течение некоторого времени<br> с Вами свяжется администратор.
+      </p>
+      
+<div class="section__forbid-form">
+
+  <form action="#">
+     <div class="section__forbid-form-blk">
+      <div class="section__forbid-form-left">
+      
+       <div class="main__forbid_arrive main__forbid_arrive-hall">
+            <p>Дата бронирования</p>
+            <div class="forbid_arrive">
+            <input type="text" id="forbid_arrive-hall" data-dp-class="custom1">
+            </div>
+            <span class="forbid_arrive-hall-arrow"></span>
+        </div>
+
+      <div class="main__forbid_category main__forbid_category-hall">
+          <p>Время бронирования</p>
+          <div class="forbid_category">
+            <ul class="list-unstyled">
+             <li class="init">8:00 - 12:00</li>
+             <li data-value="value 1">8:00 - 12:00</li>
+             <li data-value="value 2">14:00 - 18:00</li>
+             <li data-value="value 3">18:00 - 22:00</li>
+            </ul>
+          </div>
+          <span></span>
+        </div>
+
+      </div>
+
+   <div class="section__forbid-form-right">
+        <div class="section__forbid-form-right-name section__forbid-form-right-name-hall">
+                     <p>Ваше ФИО</p>
+    <input type="text"  placeholder="Иванов Иван Иванович">
+        </div>
+   
+       <div class="section__forbid-form-right-phone section__forbid-form-right-phone-hall">
+                     <p>Ваш номер телефона</p>
+       <input type="text" id="section__forbid-phone-hall"  placeholder="+х (ххх) ххх хх-хх">
+       </div>
+
+   
+  </div>
+
+</div>
+  <input class="section__forbid-form-send" type="button" value="Отправить">
+<div class="section__forbid-form-send-agree">
+  <div class="section__forbid-form-send-agree1">  
+   <input type="checkbox">
+   <p>Нажимая кнопку «Отправить», я подтверждаю, что ознакомлен с<u> антиковидными мерами</u></p>
+  </div>
+
+  <div class="section__forbid-form-send-agree2">
+   <input type="checkbox">
+   <p>Нажимая кнопку «Отправить», я даю согласие на обработку <u>персональных данных</u></p>
+  </div>
+</div>
+
+  </form>
+</div>
+</div>
+    </section>
+
+
+
+</div>
+
+
+
+
+
+    <div class="section__hall-desc">
+   <p>  В здании отеля находится конференц-зал, оснащенный техническим оборудованием,
+кондиционером и удобной мебелью. Несколько вариантов рассадки помогут
+организовать мероприятия любого формата.</p><br>
+ <p>
+   Получить дополнительную информацию о возможностях конференц-зала, заказать
+организацию мероприятия вы можете, обратившись к персональному менеджеру.
+ </p>
+
+ <div data-id='#dialog_12'  class="section__hall-forbid-btm section__hall-forbid icon-question opener">Забронировать</div>
+    </div>
+
+
+ <div id="main-slider" class="splide main-slider">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/1.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/2.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/3.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/4.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/5.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/6.jpg">
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div id="thumbnail-slider" class="splide thumbnail-slider">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/1.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/2.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/3.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/4.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/5.jpg">
+      </li>
+      <li class="splide__slide splide-hall">
+        <img src="img/hall-page/6.jpg">
+      </li>
+      
+    </ul>
+  </div>
+</div>
+ 
+<div class="section2__hall">
+<div class="section__hall-titleblock">Стандартное наполнение зала</div>
+ <ul class="section2__hall-list">
+    <li>— Ноутбук;</li>
+    <li>— Проекционный экран;</li>
+    <li>— Проектор Full HD;</li>
+    <li>— Флипчарт с блокнотом, маркерами и губкой;</li>
+    <li>— Кликер с лазерной указкой;</li>
+    <li>— Звуковая система (усилитель, 2 колонки на стойках, 2 ручных микрофона, микшерный пульт);</li>
+    <li>— Wi-fi;</li>
+    <li>— Кулер.</li>
+  </ul>
+</div>
+
+<div class="section3__hall">
+<div class="section__hall-titleblock">Услуги конференц-зала</div><div class="section3__hall-subtitle">Конференц-питание</div>
+ <div class="section3__hall-desc">
+   По вашему желанию возможна организация питания для участников мероприятия. Для
+формата кофе-брейков оборудована зона фуршета в конференц-зале. Деловой обед или
+ужин предлагаем провести в уютном зале ресторана на цокольном этаже отеля.
+ </div>
+<div class="section3__hall-pdf">Скачать PDF-файл с меню</div>
+<div class="section3__hall-subtitle">Дополнительное техническое оснащение и помощь
+</div>
+ <ul class="section3__hall-desc">
+   <li>
+   Если Вам необходима помощь в организации мероприятия, мы найдем и предоставим всё необходимое. К вашим услугам:</li><br>
+   <p><li>— Брендирование мероприятия (подготовим блокноты, ручки, папки для бумаг, шоколад и другие сувениры в соответствии с вашим фирменным стилем);</li></p>
+<li>— типография (оформим и распечатаем брошюры, баннеры, листовки);</li>
+<li>— аренда звукового или светового оборудования;</li>
+<li>— аренда компьютеров или планшетов.</li>
+</ul>
+<div data-id='#dialog_12'  class="section__hall-forbid icon-question opener section__hall-forbid hall-forbid">Забронировать</div>
+ <div data-id='#dialog_12'  class="section__hall-forbid icon-question opener section__hall-forbid-btm hall-forbid">Забронировать</div>
+
+</div>
+
+
+ </section>
+</div>
+</main>
+
+ <footer class="footer">
+      <div class="footer__container">
+          <h3 class="footer__contacts">Контакты</h3>
+          <div class="footer__blk">
+          <div class="footer__block">
+           <p class="footer__block-text">ООО «Отель «Центральный»
+                  656049, Россия, Алтайский край,
+                 </p> 
+                  <p class="footer__block-addr">г. Барнаул, пр. Ленина, 57
+                  </p>
+          </div>
+          <div class="footer__block">
+<p class="footer__block-text">Тел. <span>+7 (385-2) 36-71-00, 36-71-01
+</span></p>
+      <p class="footer__block-text">Факс: <span> +7 (385-2) 36-85-43</span></p>
+          </div>
+          <div class="footer__block">
+            <p class="footer__block-text">hotelcentral.barnaul@mail.ru<br>
+hotel@hotelcentral.ru</p>
+          </div>
+        </div>
+        </div>
+            <div class="footer__map">
+            </div>
+
+            <div class="footer__btm">
+              <div class="footer__container">
+                <div class="footer__btm-blk">
+                  <div class="footer__btm-block">
+                    <a href="/"><img src="img/logo.svg" alt="Логотип"></a>
+
+                  </div>
+                  <div class="footer__btm-block footer__img">
+                    <a href="#"><img src="img/insta.png" alt="Инстарамм"></a>
+                    <a href="#"><img src="img/skype.png" alt="Скайп"></a>
+                  </div>
+                  <div class="footer__btm-block">
+                    <p class="footer__btm-block-txt">разработка сайта
+                             <span>paralax</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+     </footer>
+</div>
+
+<script>
+ var main = new Splide('#main-slider', {
+          type      : 'fade',
+          rewind    : true,
+          pagination: false,
+          arrows    : true,
+		  autoplay  :true
+         } );
+		 
+	
+         
+         var thumbnails = new Splide('#thumbnail-slider', {
+          fixedWidth  : 100,
+          fixedHeight : 60,
+          gap         : 10,
+          rewind      : true,
+          pagination  : false,
+          cover       : true,
+          isNavigation: true,
+          arrows    : false,
+          breakpoints : {
+            600: {
+              fixedWidth : 60,
+              fixedHeight: 44,
+            },
+          },
+         } );
+		 
+		 main.sync( thumbnails );
+         main.mount();
+         thumbnails.mount();
+
+</script>
+</body>
+</html>
